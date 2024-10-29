@@ -16,13 +16,13 @@
     padding: 10px 20px;
     color: #454545;
     border: 1px solid ;
-    border-color: #12372A;
+    border-color: #AD343E;
 }
 .my-orders-order img{
     width: 50px;
 }
 .my-orders-order p span{
-    color: #12372A;
+    color: #AD343E;
 }
 .my-orders-order p b{
     font-weight: 500;
@@ -32,7 +32,7 @@
     border: none;
     padding: 12px 0px;
     border-radius: 4px;
-    background-color: #FFE1E1;
+    background-color: #f7b0b0;
     cursor: pointer;
     color: #454545;
 }

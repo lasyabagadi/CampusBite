@@ -4,36 +4,32 @@ import { assets } from '../../assets/assets'
 
 const Footer = () => {
   return (
+    
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-            <h2 className='color-campus'>Campus Bite</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="" />
-                <img src={assets.twitter_icon} alt="" />
-                <img src={assets.linkedin_icon} alt="" />
-            </div>
-        </div>
-        <div className="footer-content-center">
-            <h2>COMPANY</h2>
+        {/* <h2>Team 4</h2> */}
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+                <li>B.Lasya Priya</li>
+                <li>C.Pragna Sri</li>
+                <li>P.Pranavi Sree</li>
+                <li>D.Jayant Reddy</li>
+                <li>R.Rohit</li>
+                <li>C.Siddharth</li>
             </ul>
+            
         </div>
+        
         <div className="footer-content-right">
-            <h2>GET IN TOUCH</h2>
+            <h2>Campus Bite</h2>
             <ul>
-                <li>+1-212-456-7890</li>
-                <li>contact@tomato.com</li>
+                <li>Team 4</li>
+                <li>contact@campusbite.com</li>
             </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 © Tomato.com - All Right Reserved.</p>
+      <p className="footer-copyright">Copyright 2024 © CampusBite.com - All Right Reserved.</p>
     </div>
   )
 }
